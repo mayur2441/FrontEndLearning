@@ -1,0 +1,95 @@
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+menu {
+    margin-left: auto;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.features {
+    display: flex;
+    gap: 15px;
+}
+
+article {
+    background: #f2f2f2;
+    padding: 15px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    
+    background: #333;
+    color: #fff;
+    text-align: center;
+    
+    padding: 10px;
+}
+
+.logoImg {
+  width: 60px;           /* control size */
+  height: 60px;
+  border-radius: 50%;    /* makes it circular */
+  object-fit: cover;    /* prevents image distortion */
+  vertical-align: middle;
+  margin-right: 10px;
+
+  /* extra styling */
+  border: 2px solid #2a7de1;
+  padding: 3px;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  background: black;
+  z-index: 1000;
+}
+
+/* Push menu to the right */
+.menu {
+  margin-left: auto;
+  display: flex;           /* horizontal menu */
+  gap: 15px;               /* spacing between links */
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
