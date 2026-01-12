@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+}
+
+.contact-page {
+  padding: 40px 5%;
+}
+
+header h1 {
+  color: #1e73be;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* FORM */
+.form-section {
+  flex: 2;
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #1e73be;
+  margin-bottom: 20px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+center-btn {
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Sets vertical margin to 0 and horizontal margin to auto */
+}
+
+form button {
+  background: #1e73be;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  
+}
+
+/* RIGHT SIDE */
+.info-section {
+  flex: 1;
+  
+}
+
+.contact-box {
+  border: 1px solid #e3edf8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 68px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+  margin-right: 45px;
+}
+
+.contact-box h3 {
+  color: #1e73be;
+  margin-bottom: 10px;
+}
+
+.video-box {
+    
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+}
+
+.video-box img {
+  width: 100%;
+  display: block;
+}
+
+.video-box figcaption {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.brochure {
+    margin-left: 40px;
+    width:88%;
+  
+  padding: 14px;
+  background: #1e73be;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  
+}

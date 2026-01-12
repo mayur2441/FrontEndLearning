@@ -6,112 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/contact.css">
 </head>
 
 <body>
-    
-        <nav>
- <a href="index.html" class="logoName">
-      <img class="logoImg" src="Resources/Images/logo.jpg" alt="Wisdom International School">
-      <span>Wisdom International School</span>
-    </a>
-    <section class="menu">
-  <a href="index.html">Home</a> 
-  <a href="age.html">Age Criteria</a> 
-  <a href="awards.html">Awards</a> 
-  <a href="learning.html">Learning Process</a> 
-  <a href="testimonials.html">Testimonials</a> 
-  <a href="about.html">About Us</a> 
-  <a href="contact.html">Contact Us</a> 
-  <a href="hours.html">Working Hours</a>
-  </section>
-</nav>
-        <h1>Contact Us</h1>
-        <p>Wisdom International School</p>
-    
 
+    <nav>
+        <a href="index.html" class="logoName">
+            <img class="logoImg" src="Resources/Images/logo.jpg" alt="Wisdom International School">
+            <span>Wisdom International School</span>
+        </a>
+        <section class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Life_at_wis.html">Life At WIS</a>
+            <a href="age.html">Age Criteria</a>
+            <a href="awards.html">Awards</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="hours.html">Working Hours</a>
+            <a href="contact.html">Contact Us</a>
 
-
-    <main>
-
-        <!-- School Contact Information -->
-        <section>
-            <h2>School Contact Details</h2>
-
-            <address>
-                Wisdom International School<br>
-                India<br>
-                Phone: 99999 88888<br>
-                Email: info@wisdomschool.com
-            </address>
         </section>
+    </nav>
+   <section class="contact-page">
 
-        <!-- Student Information Form -->
-        <section>
-            <h2>Student Information Form</h2>
+  <header>
+    <h1>Message From Dr. Amrita Vohra,<br>Director Principal</h1>
+  </header>
 
-            <form>
+  <main class="layout">
 
-                <fieldset>
-                    <legend>Student Details</legend>
+    <!-- LEFT FORM -->
+    <section class="form-section">
+      <h2>Enquire Now</h2>
 
-                    <label>
-                        Student Name:
-                        <input type="text" name="student_name">
-                    </label>
-                    <br><br>
+      <form>
+        <input type="text" placeholder="Enter Child's Full Name*" required>
+        <input type="text" placeholder="Enter Parents Full Name*" required>
 
-                    <label>
-                        Age:
-                        <input type="number" name="age">
-                    </label>
-                    <br><br>
+        <input type="tel" placeholder="+91 Enter Mobile No.*" required>
+        <input type="tel" placeholder="+91 Enter Alternative No.">
 
-                    <label>
-                        Class Applying For:
-                        <select name="class">
-                            <option>Nursery</option>
-                            <option>Junior KG</option>
-                            <option>Senior KG</option>
-                            <option>Grade 1</option>
-                            <option>Grade 2</option>
-                        </select>
-                    </label>
-                    <br><br>
+        <input type="email" placeholder="Enter Email Id*" required>
+        <input type="date" placeholder="Select Student Date of Birth">
 
-                    <label>
-                        Parent Name:
-                        <input type="text" name="parent_name">
-                    </label>
-                    <br><br>
+        <select required>
+          <option>Select Relationship To Child*</option>
+          <option>Father</option>
+          <option>Mother</option>
+          <option>Guardian</option>
+        </select>
 
-                    <label>
-                        Contact Number:
-                        <input type="tel" name="phone">
-                    </label>
-                    <br><br>
+        <select required>
+          <option>Select Academic Year*</option>
+          <option>2025-26</option>
+          <option>2026-27</option>
+        </select>
 
-                    <label>
-                        Address:
-                        <textarea name="address" rows="4" cols="30"></textarea>
-                    </label>
-                    <br><br>
+        <select required>
+          <option>Select Campus*</option>
+          <option>Moshi</option>
+          <option>Pipmri</option>
+        </select>
 
-                    <button type="submit">Submit</button>
+        <select required>
+          <option>Select Board*</option>
+          <option>CBSE</option>
+          <option>ICSE</option>
+          <option>IB</option>
+        </select>
 
-                </fieldset>
+        <select required>
+          <option>Select Grade*</option>
+          <option>Play Group</option>
+          <option>Nursery</option>
+          <option>Jr. KG</option>
+          <option>Sr. KG</option>
+          <option>1st Grade</option>
+          <option>2nd Grade</option>
+          <option>3rd Grade</option>
+          <option>4th Grade</option>
+        </select>
 
-            </form>
-        </section>
+        <input type="text" placeholder="Enter Current School Name*" required>
 
-        <!-- Optional Aside -->
-        <aside>
-            <h3>Admission Help</h3>
-            <p>Office Hours: 9 AM – 3 PM</p>
-            <p>Monday to Friday</p>
-        </aside>
+        <select required>
+          <option>Select How Did You Hear About Us?*</option>
+          <option>Google</option>
+          <option>Social Media</option>
+          <option>Friends</option>
+        </select>
 
-    </main>
+     
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- RIGHT SIDE -->
+    <aside class="info-section">
+      <section class="contact-box">
+        <h3>Contact Details</h3>
+        <p>📧 admissions@wisdom.edu.in</p>
+        <p>📞 +91 8069020202</p>
+      </section>
+
+      <figure class="video-box">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0moiJsbDOvA?si=GjUpe-mte1wnFhQF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <figcaption>Life at Wisdom International School</figcaption>
+      </figure>
+
+      <button class="brochure">Download Brochure</button>
+    </aside>
+
+  </main>
+
+</section>
 
     <footer>
         <p>© 2026 Wisdom International School</p>
