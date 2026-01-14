@@ -1,0 +1,161 @@
+
+
+.main_sec{
+    background-color: #ffffff;
+}
+
+.hero {
+    background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* LEFT TEXT SECTION */
+.hero-overlay {
+  width: 45%;
+  background-color: #20070a;
+  
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+.hero-content h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  color: #f1f1f1;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* RIGHT IMAGE SECTION */
+.hero-image {
+  width: 100%;
+  background-image: url("/Resources/Images/pre_school_full.png"); /* replace path */
+  background-size: cover;
+  background-position: center;
+}
+
+
+.image-text {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 20px;
+  
+  background-color: #ffffff;
+}
+
+.image-text.reverse {
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+}
+
+.image-text1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+.image-text1.reverse {
+  flex-direction: row-reverse;
+  background-color: #fff;
+}
+
+
+
+.image-text figure {
+  flex: 1;
+  margin: 0;
+}
+
+.image-text img {
+  width: 70%;
+  height: 50%;
+  border-radius:150px;
+  
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.image-text article {
+  flex: 1;
+}
+
+.image-text h2 {
+  color: #2a7de1;
+  margin-bottom: 10px;
+}
+
+.image-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.core-values {
+  padding: 60px 5%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.core-values h2 {
+  font-size: 36px;
+  color: #d32f40;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.core-values1 {
+  padding: 60px 5%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.core-values1 h2 {
+  font-size: 36px;
+  color: #1e73be;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.icon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.icon-list li {
+  padding-left: 35px;
+  margin-bottom: 12px;
+  background: url("/Resources/Icons/tick.svg") no-repeat ;
+  background-size: 18px;
+  text-align: left;
+}
+
+.sports-cards {
+    background-color: #ffffff;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sport-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e3edf8;
+  width: 530px;
+  
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
