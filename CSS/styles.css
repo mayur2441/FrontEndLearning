@@ -59,6 +59,7 @@ footer {
   padding: 20px 0px;
     
 background-image: url(/Resources/Images/footer_bg.jpg);
+background-color: #084a85;
   
 }
 
@@ -299,6 +300,7 @@ nav {
 
 .bottom_section{
 background-image: url("/Resources/Images/admission-open.png");
+background-color: #084a85;
 height: 500;
 padding-top: 90;
 
@@ -306,6 +308,7 @@ padding-top: 90;
 
 .admission-banner {
   background-image: url("/Resources/Images/admission-open.png");
+  background-color: #084a85;
   background-size: cover;
   background-position: center;
 
