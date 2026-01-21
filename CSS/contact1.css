@@ -1,11 +1,11 @@
 
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  font-family: Arial;
-  display: flex;
-  flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-page {
@@ -45,10 +45,8 @@ form select {
 }
 
 center-btn {
-  display: block;
-  /* Makes the button a block element */
-  margin: 0 auto;
-  /* Sets vertical margin to 0 and horizontal margin to auto */
+    display: block; /* Makes the button a block element */
+    margin: 0 auto; /* Sets vertical margin to 0 and horizontal margin to auto */
 }
 
 form button {
@@ -57,13 +55,13 @@ form button {
   padding: 12px 30px;
   border: none;
   border-radius: 25px;
-
+  
 }
 
 /* RIGHT SIDE */
 .info-section {
   flex: 1;
-
+  
 }
 
 .contact-box {
@@ -82,10 +80,10 @@ form button {
 }
 
 .video-box {
-
+    
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   margin-bottom: 20px;
 }
 
@@ -101,17 +99,57 @@ form button {
 }
 
 .brochure {
-  margin-left: 40px;
-  width: 88%;
-
+    margin-left: 40px;
+    width:88%;
+  
   padding: 14px;
   background: #1e73be;
   color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 16px;
-
+  
 }
+/* =========================
+   ADMISSION / CONTACT PAGE – MOBILE FIX
+   ========================= */
+@media (max-width: 768px) {
 
+  .contact-page {
+    padding: 20px 15px;
+  }
 
+  header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
 
+  .layout {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .form-section,
+  .info-section {
+    width: 100%;
+  }
+
+  .contact-box {
+    margin: 0 0 20px 0;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  .video-box iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .brochure {
+    width: 100%;
+    margin-left: 0;
+  }
+}
